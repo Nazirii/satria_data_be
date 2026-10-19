@@ -1,0 +1,16 @@
+# Server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+# Gambar & angka
+numpy>=1.26
+pillow>=10.3
+pillow-heif>=0.16          # opsional: foto HEIC dari iPhone
+opencv-python-headless>=4.10,<5
+# Model (versi transformers disamakan dengan notebook SuperGallery)
+transformers==5.6.2
+safetensors>=0.4
+# torch dipasang terpisah, lihat README (CPU atau GPU)
+# Tes
+pytest>=8
+httpx>=0.27

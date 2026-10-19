@@ -1,0 +1,8 @@
+artifacts/
+artifacts_fake/
+data/
+review/
+.env
+__pycache__/
+.pytest_cache/
+.venv/
